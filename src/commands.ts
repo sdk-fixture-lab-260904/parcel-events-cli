@@ -40,16 +40,16 @@ export const CLI_SPEC: CliSpec = {
   provenance: {
     bundleSha: "718301da46c738b32926ec2a4c2d0bf902b5606f1f4e64b38d3f831ea468bdea",
     cliKernelVersion: "1.5.0",
-    configSha: "d6cd950255ab4936eb4bca4192e6593c44e3e1db0d3aa75d3ec4e620e1d72854",
+    configSha: "5fae08d3702fa94e5df38edcc00652963d60db22d094042224b3e25750a054b0",
     generator: "@doctorine/sdk-codegen",
     generatorVersion: "0.4.2",
-    irSha: "f4521dc2e89a5db55a76906c8e642414638d7e042fdc2430ecd7018d4e323f71",
+    irSha: "7b199fcaadfbf3eb638aa931b3520b5cc2d77f3ce08ff6ce4df6227f0db6195a",
     language: "cli",
     package: {
       name: "@sdkfixturelab260904/parcel-events-cli",
-      version: "0.1.0"
+      version: "0.1.1"
     },
-    sdkSha: "0384a833d4d47271cb823027ae533bf097dcede7f2a646f3b355bd484b81a5e5"
+    sdkSha: "914f7a0c37c0ea516760aba394ac8157719716dfd43df144157c02293e5bb7c4"
   },
   retries: {
     enabled: true,
@@ -67,7 +67,7 @@ export const CLI_SPEC: CliSpec = {
     retryConnectionErrors: true
   },
   title: "Parcel Events Sandbox API",
-  version: "0.1.0",
+  version: "0.1.1",
   webhookConvention: null,
   catalog: CATALOG,
   commands: [],
