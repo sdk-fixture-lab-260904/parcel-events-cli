@@ -1,0 +1,20 @@
+.TH PARCEL\-EVENTS\-CLI\-WEBHOOK\-ENDPOINTS 1 "Doctorine" "1.5.0"
+.SH NAME
+parcel\-events\-cli\-webhook\-endpoints \- webhook\-endpoints commands for parcel\-events\-cli
+.SH SYNOPSIS
+.B parcel\-events\-cli webhook\-endpoints
+<verb> [flags]
+.SH DESCRIPTION
+Group page for \fBwebhook\-endpoints\fR. One page per group, not per leaf.
+Stable bind id is \fBx\-operation\-key\fR.
+.SH COMMANDS
+.IP "webhook\-endpoints create"
+POST /v1/webhook\-endpoints
+.IP "webhook\-endpoints list"
+GET /v1/webhook\-endpoints
+.IP "webhook\-endpoints remove"
+DELETE /v1/webhook\-endpoints/{endpoint_id}
+.IP "webhook\-endpoints update"
+PATCH /v1/webhook\-endpoints/{endpoint_id}
+.SH SEE ALSO
+parcel\-events\-cli(1), COMMANDS.md, SKILL.md
