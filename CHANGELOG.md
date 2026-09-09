@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/sdk-fixture-lab-260904/parcel-events-cli/compare/parcel-events-cli-v1.2.0...parcel-events-cli-v1.3.0) (2026-09-09)
+
+
+### Features
+
+* **cli:** regenerate @sdkfixturelab260904/parcel-events-cli@1.2.0 (75da4da75163) ([79e6a5c](https://github.com/sdk-fixture-lab-260904/parcel-events-cli/commit/79e6a5ca176ad71bde92ddf57e0ebd9ba8c21060))
+
 ## [1.2.0](https://github.com/sdk-fixture-lab-260904/parcel-events-cli/compare/parcel-events-cli-v1.1.0...parcel-events-cli-v1.2.0) (2026-09-09)
 
 
