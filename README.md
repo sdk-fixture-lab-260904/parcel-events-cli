@@ -2,7 +2,7 @@
 
 Command-line access to the API — JSON out, predictable errors, built for scripts and agents.
 
-18 command(s). Identity: `parcel-events-cli --provenance`.
+19 command(s). Identity: `parcel-events-cli --provenance`.
 
 ## Quick start
 

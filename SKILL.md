@@ -1,13 +1,13 @@
 ---
 name: parcel-events-cli
-description: Agent-first generated API CLI (18 commands).
+description: Agent-first generated API CLI (19 commands).
 ---
 
 # parcel-events-cli
 
-parcel-events-cli — generated API CLI (sdkSha 9e2e9910595c)
+parcel-events-cli — generated API CLI (sdkSha 75da4da75163)
 
-18 command(s). Use `x-operation-key` as the stable id; help words may be speakable.
+19 command(s). Use `x-operation-key` as the stable id; help words may be speakable.
 
 ## Protocol
 
@@ -49,6 +49,7 @@ parcel-events-cli shipments list --mock --base-url https://api.example.test
 | `shipments update` | `patch /v1/shipments/{}` |
 | `retrieve` | `get /v1/tracking/{}` |
 | `webhook-endpoints create` | `post /v1/webhook-endpoints` |
+| `webhook-endpoints get` | `get /v1/webhook-endpoints/{}` |
 | `webhook-endpoints list` | `get /v1/webhook-endpoints` |
 | `webhook-endpoints remove` | `delete /v1/webhook-endpoints/{}` |
 | `webhook-endpoints update` | `patch /v1/webhook-endpoints/{}` |

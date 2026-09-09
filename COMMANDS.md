@@ -1,6 +1,6 @@
 # parcel-events-cli commands
 
-18 command(s). Prefer `parcel-events-cli find <query>` and `parcel-events-cli --schema`.
+19 command(s). Prefer `parcel-events-cli find <query>` and `parcel-events-cli --schema`.
 Stable id is `x-operation-key`, not the speakable path.
 
 | command | wire |
@@ -20,6 +20,7 @@ Stable id is `x-operation-key`, not the speakable path.
 | `shipments update` | PATCH /v1/shipments/{shipment_id} |
 | `retrieve` | GET /v1/tracking/{tracking_number} |
 | `webhook-endpoints create` | POST /v1/webhook-endpoints |
+| `webhook-endpoints get` | GET /v1/webhook-endpoints/{endpoint_id} |
 | `webhook-endpoints list` | GET /v1/webhook-endpoints |
 | `webhook-endpoints remove` | DELETE /v1/webhook-endpoints/{endpoint_id} |
 | `webhook-endpoints update` | PATCH /v1/webhook-endpoints/{endpoint_id} |

@@ -411,6 +411,25 @@ export const CATALOG: readonly CliCatalogEntry[] = [
     summary: "Register a webhook endpoint"
   },
   {
+    id: "webhook_endpoints.get",
+    operationKey: "get /v1/webhook-endpoints/{}",
+    path: [
+      "webhook-endpoints",
+      "get"
+    ],
+    httpMethod: "GET",
+    httpPath: "/v1/webhook-endpoints/{endpoint_id}",
+    flags: [
+      "endpoint-id"
+    ],
+    paginated: false,
+    deprecated: false,
+    pagination: null,
+    stream: null,
+    shard: "src/commands/webhook-endpoints.ts",
+    summary: "Retrieve a webhook endpoint"
+  },
+  {
     id: "webhook_endpoints.list",
     operationKey: "get /v1/webhook-endpoints",
     path: [
