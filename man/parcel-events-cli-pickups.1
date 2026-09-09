@@ -1,0 +1,20 @@
+.TH PARCEL\-EVENTS\-CLI\-PICKUPS 1 "Doctorine" "1.8.4"
+.SH NAME
+parcel\-events\-cli\-pickups \- pickups commands for parcel\-events\-cli
+.SH SYNOPSIS
+.B parcel\-events\-cli pickups
+<verb> [flags]
+.SH DESCRIPTION
+Group page for \fBpickups\fR. One page per group, not per leaf.
+Stable bind id is \fBx\-operation\-key\fR.
+.SH COMMANDS
+.IP "pickups cancel"
+DELETE /v1/pickups/{pickup_id}
+.IP "pickups create"
+POST /v1/pickups
+.IP "pickups list"
+GET /v1/pickups
+.IP "pickups retrieve"
+GET /v1/pickups/{pickup_id}
+.SH SEE ALSO
+parcel\-events\-cli(1), COMMANDS.md, SKILL.md

@@ -1,0 +1,1 @@
+{"type":"object","properties":{"endpoint-id":{"type":"string","pattern":"^whe_[a-z0-9]{20}$"}},"required":["endpoint-id"],"additionalProperties":false,"$defs":{}}

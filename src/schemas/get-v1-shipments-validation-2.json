@@ -1,0 +1,1 @@
+{"type":"object","properties":{"shipment-id":{"type":"string","pattern":"^shp_[a-z0-9]{20}$"}},"required":["shipment-id"],"additionalProperties":false,"$defs":{}}

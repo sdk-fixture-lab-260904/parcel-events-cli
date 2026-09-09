@@ -1,0 +1,1 @@
+{"type":"object","properties":{"shipment-id":{"type":"string","pattern":"^shp_[a-z0-9]{20}$"},"cursor":{"type":"string","minLength":1},"limit":{"type":"integer","minimum":1,"maximum":100}},"required":["shipment-id"],"additionalProperties":false,"$defs":{}}

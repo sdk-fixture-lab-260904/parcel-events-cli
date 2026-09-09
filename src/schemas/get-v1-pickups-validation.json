@@ -1,0 +1,1 @@
+{"type":"object","properties":{"cursor":{"type":"string","minLength":1},"limit":{"type":"integer","minimum":1,"maximum":100},"scheduled-on":{"format":"date","type":"string"}},"required":[],"additionalProperties":false,"$defs":{}}
