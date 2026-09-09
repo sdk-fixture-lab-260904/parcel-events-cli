@@ -1,0 +1,16 @@
+.TH PARCEL\-EVENTS\-CLI\-LABELS 1 "Doctorine" "1.8.4"
+.SH NAME
+parcel\-events\-cli\-labels \- labels commands for parcel\-events\-cli
+.SH SYNOPSIS
+.B parcel\-events\-cli labels
+<verb> [flags]
+.SH DESCRIPTION
+Group page for \fBlabels\fR. One page per group, not per leaf.
+Stable bind id is \fBx\-operation\-key\fR.
+.SH COMMANDS
+.IP "labels create"
+POST /v1/labels
+.IP "labels retrieve"
+GET /v1/labels/{label_id}
+.SH SEE ALSO
+parcel\-events\-cli(1), COMMANDS.md, SKILL.md

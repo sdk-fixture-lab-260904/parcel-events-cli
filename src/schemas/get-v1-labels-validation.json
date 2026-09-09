@@ -1,0 +1,1 @@
+{"type":"object","properties":{"label-id":{"type":"string","pattern":"^lbl_[a-z0-9]{20}$"}},"required":["label-id"],"additionalProperties":false,"$defs":{}}

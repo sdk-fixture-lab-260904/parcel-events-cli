@@ -1,0 +1,24 @@
+.TH PARCEL\-EVENTS\-CLI\-SHIPMENTS 1 "Doctorine" "1.8.4"
+.SH NAME
+parcel\-events\-cli\-shipments \- shipments commands for parcel\-events\-cli
+.SH SYNOPSIS
+.B parcel\-events\-cli shipments
+<verb> [flags]
+.SH DESCRIPTION
+Group page for \fBshipments\fR. One page per group, not per leaf.
+Stable bind id is \fBx\-operation\-key\fR.
+.SH COMMANDS
+.IP "shipments cancel"
+DELETE /v1/shipments/{shipment_id}
+.IP "shipments create"
+POST /v1/shipments
+.IP "shipments events list"
+GET /v1/shipments/{shipment_id}/events
+.IP "shipments list"
+GET /v1/shipments
+.IP "shipments retrieve"
+GET /v1/shipments/{shipment_id}
+.IP "shipments update"
+PATCH /v1/shipments/{shipment_id}
+.SH SEE ALSO
+parcel\-events\-cli(1), COMMANDS.md, SKILL.md

@@ -1,0 +1,1 @@
+{"type":"object","properties":{"pickup-id":{"type":"string","pattern":"^pku_[a-z0-9]{20}$"}},"required":["pickup-id"],"additionalProperties":false,"$defs":{}}

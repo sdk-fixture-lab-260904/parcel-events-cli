@@ -1,0 +1,1 @@
+{"type":"object","properties":{"cursor":{"type":"string","minLength":1},"limit":{"type":"integer","minimum":1,"maximum":100},"status":{"$ref":"#/$defs/ShipmentStatus"}},"required":[],"additionalProperties":false,"$defs":{"ShipmentStatus":{"enum":["draft","label_purchased","in_transit","out_for_delivery","delivered","exception","canceled"],"type":"string"}}}
