@@ -22,6 +22,7 @@ const SCHEMAS: Record<string, () => Promise<unknown>> = {
   "schemas/get-v1-shipments-validation-2.json": () => import("./schemas/get-v1-shipments-validation-2.json", { with: { type: 'json' } }).then((mod) => mod.default),
   "schemas/get-v1-shipments-validation.json": () => import("./schemas/get-v1-shipments-validation.json", { with: { type: 'json' } }).then((mod) => mod.default),
   "schemas/get-v1-tracking-validation.json": () => import("./schemas/get-v1-tracking-validation.json", { with: { type: 'json' } }).then((mod) => mod.default),
+  "schemas/get-v1-webhook-endpoints-validation-2.json": () => import("./schemas/get-v1-webhook-endpoints-validation-2.json", { with: { type: 'json' } }).then((mod) => mod.default),
   "schemas/get-v1-webhook-endpoints-validation.json": () => import("./schemas/get-v1-webhook-endpoints-validation.json", { with: { type: 'json' } }).then((mod) => mod.default),
   "schemas/patch-v1-shipments-validation.json": () => import("./schemas/patch-v1-shipments-validation.json", { with: { type: 'json' } }).then((mod) => mod.default),
   "schemas/patch-v1-webhook-endpoints-validation.json": () => import("./schemas/patch-v1-webhook-endpoints-validation.json", { with: { type: 'json' } }).then((mod) => mod.default),

@@ -148,6 +148,85 @@ export const WEBHOOK_ENDPOINTS_COMMANDS: readonly CliCommandSpec[] = [
     }
   },
   {
+    id: "webhook_endpoints.get",
+    operationKey: "get /v1/webhook-endpoints/{}",
+    path: [
+      "webhook-endpoints",
+      "get"
+    ],
+    summary: "Retrieve a webhook endpoint",
+    httpMethod: "GET",
+    httpPath: "/v1/webhook-endpoints/{endpoint_id}",
+    params: [
+      {
+        flag: "endpoint-id",
+        wireName: "endpoint_id",
+        in: "path",
+        required: true,
+        type: "string",
+        serialization: {
+          style: "simple",
+          explode: false,
+          allowReserved: false
+        }
+      }
+    ],
+    body: null,
+    inputSchema: {
+      $schema: "https://json-schema.org/draft/2020-12/schema",
+      title: "webhook_endpoints.get (GET /v1/webhook-endpoints/{endpoint_id})",
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        "endpoint-id": {
+          type: "string",
+          pattern: "^whe_[a-z0-9]{20}$",
+          "x-flag": "endpoint-id",
+          "x-in": "path",
+          "x-wire-name": "endpoint_id",
+          "x-serialization": {
+            style: "simple",
+            explode: false,
+            allowReserved: false
+          }
+        }
+      },
+      "x-http-method": "GET",
+      "x-http-path": "/v1/webhook-endpoints/{endpoint_id}",
+      "x-operation-key": "get /v1/webhook-endpoints/{}",
+      "x-deprecated": false,
+      "x-paginated": false,
+      "x-pagination": null,
+      "x-streaming": false,
+      required: [
+        "endpoint-id"
+      ]
+    },
+    validationSchema: {
+      $ref: "schemas/get-v1-webhook-endpoints-validation.json"
+    },
+    paginated: false,
+    pagination: null,
+    streaming: false,
+    stream: null,
+    deprecated: false,
+    mockResponse: {
+      created_at: "2026-06-09T00:00:00Z",
+      enabled: true,
+      events: [
+        "pickup.completed"
+      ],
+      id: "whe_00000000000000000001",
+      object: "webhook_endpoint",
+      signing_secret_hint: "synthetic-key-ending-0000",
+      url: "https://hooks.parcel-events.example/events"
+    },
+    example: {
+      request: "parcel-events-cli --dry-run\n",
+      response: "{\n  \"created_at\": \"2026-06-09T00:00:00Z\",\n  \"enabled\": true,\n  \"events\": [\n    \"pickup.completed\"\n  ],\n  \"id\": \"whe_00000000000000000001\",\n…\n"
+    }
+  },
+  {
     id: "webhook_endpoints.list",
     operationKey: "get /v1/webhook-endpoints",
     path: [
@@ -266,7 +345,7 @@ export const WEBHOOK_ENDPOINTS_COMMANDS: readonly CliCommandSpec[] = [
       }
     },
     validationSchema: {
-      $ref: "schemas/get-v1-webhook-endpoints-validation.json"
+      $ref: "schemas/get-v1-webhook-endpoints-validation-2.json"
     },
     paginated: true,
     pagination: {
