@@ -5,7 +5,7 @@ description: Agent-first generated API CLI (19 commands).
 
 # parcel-events-cli
 
-parcel-events-cli — generated API CLI (sdkSha b62af6233799)
+parcel-events-cli — generated API CLI (sdkSha 79ada5ca4ce0)
 
 19 command(s). Use `x-operation-key` as the stable id; help words may be speakable.
 

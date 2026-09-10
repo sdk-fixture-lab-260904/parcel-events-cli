@@ -47,9 +47,9 @@ export const CLI_SPEC: CliSpec = {
     language: "cli",
     package: {
       name: "@sdkfixturelab260904/parcel-events-cli",
-      version: "1.2.1"
+      version: "1.3.1"
     },
-    sdkSha: "b62af6233799b953942a40949346cabe432222d80ce7ec7d3131c0bb5f72c57b"
+    sdkSha: "79ada5ca4ce02426681faf31f105eaa0e892cc9f2819bd7ec271543c51626a0b"
   },
   retries: {
     enabled: true,
@@ -67,7 +67,7 @@ export const CLI_SPEC: CliSpec = {
     retryConnectionErrors: true
   },
   title: "Parcel Events Sandbox API",
-  version: "1.2.1",
+  version: "1.3.1",
   webhookConvention: null,
   catalog: CATALOG,
   commands: [],
