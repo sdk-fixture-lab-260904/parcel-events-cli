@@ -38,7 +38,7 @@ export const CLI_SPEC: CliSpec = {
   defaultTimeoutMs: 45000,
   idempotencyHeader: "Idempotency-Key",
   provenance: {
-    bundleSha: "6196b4f93c0d72651cd04f49afe07a1bcb677c70fd4d83ea04111af4279ba8fa",
+    bundleSha: "ee4e0c67f413a3bbf6c37174648831489b9449db1af378e2b81e66e833d86f55",
     cliKernelVersion: "1.8.4",
     configSha: "3b30b7bffa895fb980dad02715f00f4e9bfa44b0a1609697a9abc1366c009a3d",
     generator: "@doctorine/sdk-codegen",
@@ -47,9 +47,9 @@ export const CLI_SPEC: CliSpec = {
     language: "cli",
     package: {
       name: "@sdkfixturelab260904/parcel-events-cli",
-      version: "1.2.0"
+      version: "1.3.1"
     },
-    sdkSha: "75da4da75163fdd0855af0269fe76a888d048dabc16e6fc180f9c2fa0b43da3e"
+    sdkSha: "79ada5ca4ce02426681faf31f105eaa0e892cc9f2819bd7ec271543c51626a0b"
   },
   retries: {
     enabled: true,
@@ -67,7 +67,7 @@ export const CLI_SPEC: CliSpec = {
     retryConnectionErrors: true
   },
   title: "Parcel Events Sandbox API",
-  version: "1.2.0",
+  version: "1.3.1",
   webhookConvention: null,
   catalog: CATALOG,
   commands: [],
